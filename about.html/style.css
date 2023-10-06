@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(13, 13, 13);
+   color:aliceblue;
+}
+.head{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr1{
+    width: 30px;
+    height: 1px;
+    background-color: rgb(255, 230, 0);
+}
+.hr2{
+    margin-top: 3px;
+    width: 15px;
+    height: 1px;
+    background-color: rgb(244, 232, 4);
+} 
+.main{
+    margin-top: 17px;
+    margin-left: 20px;
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.name-span{
+    color: rgb(210, 92, 8);
+    font-size: 30px;
+}
+.para{
+    font-size: 22px;
+    margin-top: 12px;
+   
+}
+.para1{
+
+ color: rgb(188, 182, 211);
+}
+.section-main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+.main1{
+    
+    margin-left: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main11{
+    color: rgb(159, 123, 79);
+}
+.main2{
+    margin-left: 0px;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main3{
+    margin-left: 20px;
+    margin-top: 18px;
+    font-size: 20px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hs{
+    background-color: rgb(47, 49, 50);
+    width: 70%;
+   
+}
+.hs1{
+    width: 80%;
+    background-color: green;
+    margin-top: 10px;
+}
+.hss{
+    background-color: rgb(47, 49, 50);
+    width: 70%;  
+}
+.hs2{
+    width: 81%;
+    background-color: rgb(0, 91, 0);
+    margin-top: 10px;
+}
+.school{
+    margin-top: 13px;
+}
+.sc{
+    color: rgb(207, 84, 2);
+}
+.clg{
+margin-top:13px ;
+}
+.hs3{
+    background-color: rgb(228, 111, 1);
+    width: 75%;
+    margin-top: 10px;
+}
+.cv{
+    margin-top: 15px;
+}
+.cvv{
+    padding: 10px 40px;
+    background-color: rgb(215, 205, 0);
+    color: black;
+    border-radius: 10px;
+}
+.cvv:hover{
+    background-color: blueviolet;
+    color: black;
+}

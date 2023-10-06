@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    color: rgb(167, 137, 54);
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.hr{
+    height: 1px;
+    width: 90px;
+    background-color: yellow;
+    margin-top: 10px;
+}
+.hr1{
+    height: 1px;
+    width: 70px;
+    background-color: rgb(139, 139, 15);
+    margin-top: 5px;
+}
+.sechead{
+    margin-left: 60px;
+}
+.section  {
+    margin-top:20px ;
+    margin-left: 70px;
+    color: rgb(0, 0, 0);
+    height: 35px;
+    width: 750px;
+     background-color: rgb(159, 123, 79);
+    font-size: 22px;
+    border-radius: 10px;
+    border-color: cadetblue;
+    border-style: groove;
+    display: flex;
+    flex-direction: column;
+    justify-items:center ;
+    justify-content: space-around;
+    padding: 1px 5px;
+    word-spacing: 1px;
+}
+
+.button{
+    margin-top:10px ;
+    margin-left: 85px;
+    color: rgb(9, 9, 8);
+   background-color:  rgb(97, 69, 36);
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: rgb(3, 113, 13);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-items:center ;
+    justify-content: space-around;  
+    padding: 9px 30px;
+}
+.button:hover{
+    cursor: pointer;
+    font-size: 40px;
+}

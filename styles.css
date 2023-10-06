@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    
+    
+   
+    
+}
+body{
+    background-color:rgb(1, 1, 1);
+    box-sizing: border-box; 
+   height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.head{
+display:flex;
+
+
+justify-content:space-between ;
+
+
+}
+.head_1{
+    color: white;
+    margin-left: 30px;
+    font-family: cursive;
+     margin-top: 30px;
+    
+     
+ }
+ .hr{
+    height: 2px;
+    width: 140px;
+    color: rgb(243, 243, 1);
+    background-color: rgb(229, 229, 6);
+    margin-top: 5px;
+}
+.hr1{
+    
+    height: 2px;
+    width: 90px;
+    color: rgb(243, 243, 1);
+    background-color: rgb(229, 229, 6);
+    margin-top: 3px;
+}
+
+
+.head_2 {
+
+display: flex;
+align-items: center;
+gap:30px;
+font-weight: 300px;
+text-decoration: none;
+justify-content: center;
+margin-right: 340px;
+margin-top: 20px;
+}
+.ab{
+    color: rgb(192, 125, 30);
+}
+.ab:hover{
+    color:violet;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    
+   margin-bottom: 120px;
+ }   
+ .section--p{
+    margin-left: 50px;
+    margin-top: 110px;
+    color: white;
+    
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section--p1{
+   
+    margin-top: 30px;
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section--p span{
+    color: rgb(159, 77, 6);
+    font-weight: 500;
+    font-size:x-large;
+ 
+ }
+ .section--p1 span{
+    color: rgb(159, 77, 6);
+    font-weight: 500;
+    font-size:x-large;
+    position: absolute;
+    animation: 1s steps(1) infinite;
+ }
+ 
+ 
+.section-p{
+    margin-left: 50px;
+    
+     font-family:Arial, Helvetica, sans-serif; 
+     color: white;
+     font-size: 21px;
+     margin-top: 30px;
+}
+.section-p span{
+    color: rgb(149, 66, 7);
+    font-weight: 400;
+    font-size:x-large;
+ 
+ }
+ .section_img{
+    height: 300px;
+    width: 200px;
+   margin-top: 100px;
+    margin-right: 80px;
+    border-image: chartreuse;
+    border-radius: 10px;
+}
+.section_button {
+    background-color:rgb(232, 176, 11);
+   border: black;
+    border-radius: 15px;
+   margin-left: 90px;
+    margin-top: 25px;
+    cursor:pointer;
+    color: black;
+    font-size: 17px;
+    padding: 15px 29px;
+  
+
+   }
+   .section_button:hover{
+background-color: blueviolet;
+color: black;
+   }
+
+.footer p{
+  margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

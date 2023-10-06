@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>contact us</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Wr3zWIdfYXNuci0zH");
+   })();
+</script>
+</head>
+<body class="container">
+  <div class="container1">
+  <div class="div1">
+    <h1>GET IN TOUCH</h1>
+    <p>For contact me in below have to you to mention your some details and in sometime i will connect to you , and it will give me really good conversation to you thankyou.</p>
+  </div>  
+  <div class="info-data">
+    <label >NAME</label>
+    <input type="text" class="name" id="n1"  placeholder="enter your full-name" aria-placeholder="20px" required>
+    <div class="info-data1">
+    <label  >E-MAIL</label>
+    <input type="email" class="email" id="em"  required placeholder="enter email..">
+  </div>
+  <div >
+    <textarea id="msg" rows="10" placeholder="type your message..."></textarea>
+  </div>
+  <div class="info-data1">
+    <rate  >RATE</rate>
+    <input type="number" class="label" id="rate" placeholder="rate in points..">
+  </div>
+  <div class="info-data2">
+    <input type="button" value="SUBMIT" id="sb" onclick="sendMail()">
+  </div>
+  </div>
+</div>
+</body>
+</html>
